@@ -32,10 +32,3 @@ class Move:
 # row 1: | 4 | 5 | 6 |
 # row 2: | 7 | 8 | 9 |
 
-move = Move(3)
-print(move.value)
-
-print(move.is_valid())
-
-print(move.get_row())
-print(move.get_column())
