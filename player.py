@@ -45,7 +45,3 @@ class Player:
         move = Move(random_choice)
         print("Computer move (1-9): ", move.value)
         return move
-
-computer = Player(False) # computer player
-
-move = computer.get_move()
